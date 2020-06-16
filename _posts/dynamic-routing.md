@@ -1,11 +1,11 @@
 ---
-title: 'Dynamic Routing and Static Generation'
+title: '다이나믹 루팅과 정적파일 생성'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus.'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
 author:
-  name: JJ Kasper
-  picture: '/assets/blog/authors/jj.jpeg'
+  name: Woosung Choi
+  picture: '/assets/blog/authors/woosung.png'
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---

@@ -7,14 +7,14 @@ export default function Intro() {
         Blog.
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{' '}
+        이 정적 블로그는 {' '}
         <a
           href="https://nextjs.org/"
           className="underline hover:text-success duration-200 transition-colors"
         >
           Next.js
         </a>{' '}
-        and {CMS_NAME}.
+        와 {CMS_NAME}으로 만들어졌습니다.
       </h4>
     </section>
   )

@@ -14,25 +14,25 @@ export default function Alert({ preview }) {
         <div className="py-2 text-center text-sm">
           {preview ? (
             <>
-              This is page is a preview.{' '}
+              이 페이지는 프리뷰입니다.{' '}
               <a
                 href="/api/exit-preview"
                 className="underline hover:text-cyan duration-200 transition-colors"
               >
-                Click here
+                여기를 클릭하세요
               </a>{' '}
-              to exit preview mode.
+              프리뷰 모드를 벗어나려면.
             </>
           ) : (
             <>
-              The source code for this blog is{' '}
+              이 블로그의 소스코드는 {' '}
               <a
                 href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
                 className="underline hover:text-success duration-200 transition-colors"
               >
-                available on GitHub
+                깃허브
               </a>
-              .
+              에서 사용할 수 있습니다.
             </>
           )}
         </div>

@@ -6,16 +6,6 @@ export default function Intro() {
       <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
         블로그.
       </h1>
-      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        이 정적 블로그는 {' '}
-        <a
-          href="https://nextjs.org/"
-          className="underline hover:text-success duration-200 transition-colors"
-        >
-          Next.js
-        </a>{' '}
-        와 {CMS_NAME}으로 만들어졌습니다.
-      </h4>
     </section>
   )
 }

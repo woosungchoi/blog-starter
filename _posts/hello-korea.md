@@ -1,13 +1,13 @@
 ---
-title: '다이나믹 루팅과 정적파일 생성'
+title: 'Next.js에서 정적 생성을 사용하여 페이지를 미리 렌더링하는 방법 알아보기'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus.'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
-date: '2020-06-16T05:35:07.322Z'
+coverImage: '/assets/blog/hello-world/cover.jpg'
+date: '2020-06-15T05:35:07.322Z'
 author:
   name: Woosung Choi
   picture: '/assets/blog/authors/woosung.png'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/hello-world/cover.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.

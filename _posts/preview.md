@@ -1,8 +1,8 @@
 ---
-title: 'Preview Mode for Static Generation'
+title: '정적 생성을위한 미리보기 모드'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus.'
 coverImage: '/assets/blog/preview/cover.jpg'
-date: '2020-03-16T05:35:07.322Z'
+date: '2020-06-14T05:35:07.322Z'
 author:
   name: Woosung Choi
   picture: '/assets/blog/authors/woosung.png'

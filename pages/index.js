@@ -13,7 +13,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>우성짱의 Next.js 블로그</title>
+          <title>우성짱의 Next js 블로그</title>
         </Head>
         <Container>
           <Intro />

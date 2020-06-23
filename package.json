@@ -1,6 +1,9 @@
 {
-  "name": "blog-starter",
-  "version": "1.0.0",
+  "name": "woosung-nextjs-blog",
+  "description": "Blog for nextjs",
+  "version": "1.0.1",
+  "author": "Nextjs and Woosung <solut2000@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",

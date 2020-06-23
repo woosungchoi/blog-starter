@@ -13,3 +13,18 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+pre {
+	color: white;
+    font-family: Consolas, Menlo, Monaco, source-code-pro, "Courier New", monospace;
+	padding : 20px;
+	border-radius: 5px;
+	overflow-x: auto;
+	background: rgb(39, 41, 42);
+	font-feature-settings: normal;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    tab-size: 4;
+    hyphens: none;
+	}

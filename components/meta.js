@@ -4,6 +4,7 @@ import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 export default function Meta() {
   return (
     <Head>
+	  <title>Woosung blog.</title>
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -34,7 +35,7 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        content="Nextjs와 Markdown으로 구성한 우성짱의 블로그입니다. CMS, 서버, 정적페이지를 좋아합니다."
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>

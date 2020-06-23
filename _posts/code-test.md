@@ -14,7 +14,7 @@ gatsby에 비해서 사용자를 위한 플러그인이 약한 Nextjs에서는 �
 
 ## *코드는 표시될까요?*
 
-```
+```javascript
 ssl_certificate /etc/letsencrypt/live/yoursitename/fullchain.pem; # 이 경로도 인증서 만들때 중요했던, 그 경로로 바꾸세요.
 ssl_certificate_key /etc/letsencrypt/live/yoursitename/privkey.pem; # 이 경로도 인증서 만들때 중요했던, 그 경로로 바꾸세요.
 ssl_trusted_certificate /etc/letsencrypt/live/yoursitename/chain.pem;  # 이 경로도 인증서 만들때 중요했던, 그 경로로 바꾸세요.
@@ -41,3 +41,7 @@ add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; prelo
 ```
 
 잘 표시가 되는지 궁금하네요!
+
+음.. 코드만 잘 표시되면 충분히 실사용할 수 있을 것 같은데요!!!
+
+어떻게 하면 될까요? 정말 고민입니다!

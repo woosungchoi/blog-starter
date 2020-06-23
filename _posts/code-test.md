@@ -45,3 +45,19 @@ add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; prelo
 음.. 코드만 잘 표시되면 충분히 실사용할 수 있을 것 같은데요!!!
 
 어떻게 하면 될까요? 정말 고민입니다!
+
+일단 CSS를 자체 삽입하여 구현은 했습니다.
+
+원래 prism이나 코드 하일라이터를 구현하려고 했지만... 능력 부족으로 ㅠㅠ 다음에 시도해보도록 하겠습니다.
+
+---
+
+\styles\index.css 
+
+현재는 위 경로에
+
+```css
+pre{color:#fff;font-family:Consolas,Menlo,Monaco,source-code-pro,"Courier New",monospace;padding:20px;border-radius:5px;overflow-x:auto;background:#27292a;font-feature-settings:normal;white-space:pre;word-spacing:normal;word-break:normal;line-height:1.5;tab-size:4;hyphens:none}
+```
+
+위와 같은 코드를 제일 밑에 넣어뒀습니다. 수동으로 검은 배경과 흰색 글자, 둥근 모서리 처리해뒀습니다. ㅎㅎ

@@ -9,6 +9,33 @@ import { getPostBySlug, getAllPosts } from '../../lib/api'
 import PostTitle from '../../components/post-title'
 import Head from 'next/head'
 import markdownToHtml from '../../lib/markdownToHtml'
+import React, { createRef, useLayoutEffect } from 'react';
+
+const src = 'https://utteranc.es/client.js';
+export interface IUtterancesProps {
+    repo: string;
+}
+const Utterances: React.FC<IUtterancesProps> = React.memo(({ repo }) => {
+    const containerRef = createRef<HTMLDivElement>();
+    useLayoutEffect(() => {
+        const utterances = document.createElement('script');
+        const attributes = {
+            src,
+            repo,
+            'issue-term': 'url',
+            label: 'comment',
+            theme: 'github-light',
+            crossOrigin: 'anonymous',
+            async: 'true',
+        };
+        Object.entries(attributes).forEach(([key, value]) => {
+            utterances.setAttribute(key, value);
+        });
+        containerRef.current.appendChild(utterances);
+    }, [repo]);
+    return <div ref={containerRef} />;
+});
+Utterances.displayName = 'Utterances';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter()
@@ -37,6 +64,7 @@ export default function Post({ post, morePosts, preview }) {
                 author={post.author}
               />
               <PostBody content={post.content} />
+              <Utterances repo="woosungchoi/blog-starter" />
             </article>
           </>
         )}

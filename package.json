@@ -1,7 +1,7 @@
 {
   "name": "woosung-nextjs-blog",
   "description": "Blog for nextjs",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "author": "Nextjs and Woosung <solut2000@gmail.com>",
   "license": "MIT",
   "scripts": {

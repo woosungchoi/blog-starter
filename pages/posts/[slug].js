@@ -11,11 +11,10 @@ import Head from 'next/head'
 import markdownToHtml from '../../lib/markdownToHtml'
 import { DiscussionEmbed } from 'disqus-react'
 
-
 export default function Post({ post, morePosts, preview }) {
   const disqusShortname = "nextjs-blog-starter";
   const disqusConfig = {
-    config: { identifier: post.slug },
+    config: { identifier: post.slug, title: post.title },
   };
   const router = useRouter()
   if (!router.isFallback && !post?.slug) {

@@ -9,8 +9,14 @@ import { getPostBySlug, getAllPosts } from '../../lib/api'
 import PostTitle from '../../components/post-title'
 import Head from 'next/head'
 import markdownToHtml from '../../lib/markdownToHtml'
+import { DiscussionEmbed } from 'disqus-react'
+
 
 export default function Post({ post, morePosts, preview }) {
+  const disqusShortname = "nextjs-blog-starter";
+  const disqusConfig = {
+    config: { identifier: post.slug },
+  };
   const router = useRouter()
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
@@ -37,7 +43,8 @@ export default function Post({ post, morePosts, preview }) {
                 author={post.author}
               />
               <PostBody content={post.content} />
-            </article>
+            </article>   
+            <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />         
           </>
         )}
       </Container>
